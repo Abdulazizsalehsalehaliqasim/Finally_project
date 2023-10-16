@@ -1,0 +1,125 @@
+<!DOCTYPE html >
+<html lang="en">
+    <head>    
+        <meta charset="UTF-8" />
+        <title>Table</title>
+        <link rel="icon" href="images/slider/‏‏21 - نسخة.png"/>
+        <meta name="description" content=" this page show up for you the 
+        new and the best from the movis from any website you wont "/>
+        <!--<link rel="stylesheet" href="css/templatemo_style.css" />-->
+        <link rel="stylesheet" href="css/table.css" />
+        <link rel="stylesheet" href="css/ddsmoothmenu.css" />
+        <link rel="stylesheet" href="css/fontAwesome.css"/>
+    </head>
+    <body>
+         <div id="templatemo_header_wrapper">
+            <div id="site_title">
+                <h1><a href="index.html">MOVIES</a></h1>
+            </div>
+            <hr class="hh"/>
+            <div id="templatemo_menu" class="ddsmoothmenu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_us.html">About</a></li>
+                    <li><a href="comments.html">Comments</a></li>
+                    <li><a href="table.html"class="selected">Table</a></li>
+                </ul>
+            </div> 
+            <div class="cleaner"></div>
+         </div>	
+         <br> <br>
+         <!--for the input form -->
+         <div class="container1">
+            <label for="fname">FIRST NAME:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+
+            <label for="lname">LAST NAME:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+
+            <label for="email">EMAIL:</label><br>
+            <input type="text" id="email" name="email"><br>
+            
+            <label for="age">AGE:</label><br>
+            <input type="date" id="age" name="age"><br>
+
+            <label for="massage">massage:</label><br>
+            <textarea id="massage" name="massage"></textarea><br>
+
+            <input type="button" value="ADD" onclick="AddRow()" id="button"/>
+         </div>
+         <!--for the table-->
+         <table id="show">
+            <tr>
+                <th>FIRST NAME</th>
+                <th>LAST NAME</th>
+                <th>EMAIL</th>
+                <th>AGE</th>
+                <th>massage</th>
+            </tr>
+         </table>
+        
+            <br><br><br><br><br>
+            <hr class="hh"/>
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p>Copyright &copy; 2020 abdulaziz</p>
+                        </div>
+                        <div class="web">
+                            <p ><a href="table.html" >
+                                www.abdulaziz.con</a></p>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="social-icons">
+                                <li><a href="https://facebook.com" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com"  target="_blank" class="twitter"> <i class="fa fa-twitter"> </i></a></li>
+                            <li><a href="https://linkedin.com" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://rss.com"      target="_blank" class="rss">     <i class="fa fa-rss">     </i></a></li>
+                            <li><a href="https://dribbble.com" target="_blank" class="dribbble"><i class="fa fa-dribbble"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            
+            <script>
+                /* to aadding the nformation from the form to the table*/
+                var list1=[];
+                var list2=[];
+                var list3=[];
+                var list4=[];
+                var list5=[];
+
+                var n = 1;
+                var x = 1;
+    
+                function AddRow()
+                {
+                    var AddRown=document.getElementById('show');
+                    var NewRow= AddRown.insertRow(n);
+    
+                    list1[x] = document.getElementById("fname").value;
+                    list2[x] = document.getElementById("lname").value;
+                    list3[x] = document.getElementById("email").value;
+                    list4[x] = document.getElementById("age").value;
+                    list5[x] = document.getElementById("massage").value;
+    
+                    var cel1 = NewRow.insertCell(0);
+                    var cel2 = NewRow.insertCell(1);
+                    var cel3 = NewRow.insertCell(2);
+                    var cel4 = NewRow.insertCell(3);
+                    var cel5 = NewRow.insertCell(4);
+    
+                    cel1.innerHTML = list1[x];
+                    cel2.innerHTML = list2[x];
+                    cel3.innerHTML = list3[x];
+                    cel4.innerHTML = list4[x];
+                    cel5.innerHTML = list5[x];
+    
+                    n++;
+                    x++;
+                }
+             </script>
+    </body>
+</html>

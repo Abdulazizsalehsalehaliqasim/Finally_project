@@ -1,0 +1,152 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, Geneva,sans-serif,Arial;
+	line-height: 1.4em;
+	background-color:rgba(0, 0, 0, 0.2);
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(1.jpg);
+	background-size: cover;
+}
+/*for the header*/
+#site_title h1 { 
+	letter-spacing: 50px;
+	text-align: center;
+	margin: 20px; 
+	padding: 10px; 
+	box-shadow: 2px 2px 5px 5px rgba(240, 9, 9, 0.473);
+}
+
+#site_title h1 a { 
+	font-size: 50px; 
+	color: #e10404;
+	text-decoration: none;
+	font-family: Serif;
+	
+}
+/*for the input form*/
+#main.css>.container1
+*{
+    margin: auto;
+    height: auto;
+}
+
+.container1{
+	width: 50%;
+    background-color: rgba(85, 84, 83, 0.539);
+    background-size: 20%;
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.container1 input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(255, 0, 0, 0.747);
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: vertical;
+    border-radius: 10px;
+    background-color: #ffffff79;
+}
+
+.container1 label{
+    color: white;
+}
+
+#button{
+background-color: rgba(236, 49, 49, 0.756);
+cursor: pointer;
+}
+#massage{
+	width: 100%;
+	height: 50px;
+	background-color: #ffffff79;
+	border: 1px solid rgba(255, 0, 0, 0.747);
+	border-radius: 10px;
+}
+/*for the table*/
+table th{
+    border: 3px solid black;
+    height: 50px;
+	
+}
+
+table{
+	border-collapse: collapse;
+	margin-left: 25%;
+    width: 50%;
+    margin-top: 15px ;
+    background: #59595ab3;
+}
+/*for the footer*/
+footer {
+	background-color: #363e505d;
+	text-align: center;
+}
+
+footer p {
+	line-height: 25px;
+	color: #fff;
+	margin-top: 5px;
+}
+
+footer p:hover {
+	color: #e61313;
+}
+
+.container .row .web p a{
+	letter-spacing: 15px;
+    color: white; 
+	text-decoration:none;
+}
+
+.container .row .web p a:hover{
+	color: red;
+}
+
+footer ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+footer ul li {
+	display: inline-block;
+	margin: 0px 5px;
+}
+
+footer ul li i {
+	width: 36px;
+	height: 36px;
+	display: inline-block;
+	text-align: center;
+	line-height: 36px!important;
+	background-color: #fff;
+	border-radius: 50%;
+	color: #363e50;
+	transition: all 0.5s;
+}
+
+footer ul li .facebook i:hover {
+	background-color: rgb(65, 65, 255);	
+}
+
+footer ul li .twitter i:hover {
+	background-color: rgb(2, 134, 216);	
+}
+
+footer ul li .linkedin i:hover {
+	background-color: rgba(0, 0, 196, 0.712);	
+}
+
+footer ul li .rss i:hover {
+	background-color: rgb(255, 43, 43);	
+}
+
+footer ul li .dribbble i:hover {
+	background-color: rgb(33, 33, 34);	
+}
+/*THE END*/

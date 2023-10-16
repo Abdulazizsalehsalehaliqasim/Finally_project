@@ -1,0 +1,230 @@
+/*for the body of the page*/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, Geneva,sans-serif,Arial;
+	line-height: 1.4em;
+	background-color:rgba(0, 0, 0, 0.845);
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(1.jpg);
+	background-size: cover;
+}
+/*for the wowslider*/
+#templatemo_slider {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 10px 10px;
+}
+
+#slider-right-but { 
+	display: block; 
+	width: 30px; 
+	height: 30px; 
+	border: none; 
+	background: url(../images/templatemo_slider_left.png);
+	
+}
+
+#slider-left-but { 
+	display: block; 
+	width: 30px; 
+	height: 30px; 
+	border: none; 
+	background: url(../images/templatemo_slider_right.png); 
+	margin-right: 10px; 
+}
+/*or the  heading header*/
+#site_title h1 { 
+	letter-spacing: 50px;
+	text-align: center;
+	margin: 20px; 
+	padding: 10px; 
+	box-shadow: 2px 2px 5px 5px rgba(240, 9, 9, 0.473);
+}
+
+#site_title h1 a { 
+	font-size: 50px; 
+	color: #e10404;
+	text-decoration: none;
+	font-family: Serif;
+}
+
+#site_title h1 a:hover{
+	color: white;
+}
+/*for the three sections with his heading and parghraph and images*/
+.section{
+	display: flex;
+	padding: 10px;
+	margin: 30px;
+	text-align: center;
+	color: black;
+	border: rgba(0, 0, 0, 0.518) 5px solid;
+	background-color: rgba(79, 77, 77, 0.559);
+	border-radius: 50px;	
+}
+
+.section1{
+	border: rgba(0, 0, 0, 0.406) 5px solid;
+	border-radius: 50px;
+	margin: 10px;
+}
+
+.section2{
+	border: rgba(0, 0, 0, 0.406) 5px solid;
+	border-radius: 50px;
+	margin: 10px;
+}
+
+.section3{
+	border: rgba(0, 0, 0, 0.406) 5px solid;
+	border-radius: 50px;
+	margin: 10px;
+}
+
+.section h1 {
+	color: rgb(231, 21, 21);
+	font-size: 40px;
+	font-family: Fantasy;
+}
+
+.section h1:hover{
+	color: rgb(252, 250, 250);
+}
+
+.section p {
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section img {
+	margin-top: 10px;
+	border-radius: 30px;
+	box-shadow: 2px 5px 10px 5px rgba(250, 245, 245, 0.473);
+	transition-duration:1s ;
+	transition-delay:0.2s ;
+	transition-property: all;
+}
+
+.section p::first-letter{
+	color: red;
+	font-size: 30px;
+} 
+
+.section img:hover {
+	-ms-transform: scale(2,2);
+	-webkit-transform: scale(2,2);
+	transform: scale(1.7,1.7);
+}
+.hrsection{
+	color: red;
+	width: 200px;
+}
+
+/*for the footer*/
+footer {
+	background-color: #363e505d;
+	text-align: center;
+}
+
+footer p {
+	line-height: 25px;
+	color: #fff;
+	margin-top: 3px;
+}
+
+footer p:hover {
+	color: #e61313;
+}
+
+.container .row .web p a{
+	letter-spacing: 15px;
+    color: white; 
+	text-decoration:none;
+}
+
+.container .row .web p a:hover{
+	color: red;
+}
+
+footer ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+footer ul li {
+	display: inline-block;
+	margin: 0px 5px;
+}
+
+footer ul li i {
+	width: 36px;
+	height: 36px;
+	display: inline-block;
+	text-align: center;
+	line-height: 36px!important;
+	background-color: #ffffffef;
+	border-radius: 50%;
+	color: #363e50;
+	transition: all 0.5s;
+}
+
+footer ul li .facebook i:hover {
+	background-color: rgb(65, 65, 255);	
+}
+
+footer ul li .twitter i:hover {
+	background-color: rgb(2, 134, 216);	
+}
+
+footer ul li .linkedin i:hover {
+	background-color: rgba(0, 0, 196, 0.712);	
+}
+
+footer ul li .rss i:hover {
+	background-color: rgb(255, 43, 43);	
+}
+
+footer ul li .dribbble i:hover {
+	background-color: rgb(33, 33, 34);	
+}
+/*THE  END -_-*/
+@media screen and (max-width:750px)
+{
+    
+    body
+	{
+        direction: ltr;
+    }
+
+    #templatemo_header_wrapper{
+        position: fixed;
+        width: 40%;
+        height: 100%;
+        left: -40%;
+        background-color: black;
+    }   
+    #templatemo_header_wrapper li{
+        color: white;
+        height: 20%;
+        font-size: 20px;
+        padding: 20px;
+        border-bottom: 1px solid gray;
+        text-align: center;
+    }
+    .toggle-btm{
+     position: absolute;
+     left: 105%;
+     top: 15px;
+     border: 1px solid gray;
+    }
+    .toggle-btm span{
+        display: block;
+        background-color: black;
+        width: 30px;
+        height: 5px;
+        margin: 3px;
+    }
+    #templatemo_header_wrapper.active{
+        left: 0;
+    }
+}

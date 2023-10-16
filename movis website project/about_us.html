@@ -1,0 +1,105 @@
+<!DOCTYPE html >
+<html lang="en">
+    <head>    
+        <meta charset="UTF-8" />
+        <title>About_us</title>
+        <link rel="icon" href="images/slider/‏‏21 - نسخة.png"/>
+        <meta name="description" content=" this page show up for you the 
+        new and the best from the movis from any website you wont "/>
+        <link rel="stylesheet" href="css/about_us.css" />
+        <link rel="stylesheet" href="css/ddsmoothmenu.css" />
+        <link rel="stylesheet" href="css/fontAwesome.css"/><!--for the socialmida-->
+    </head>
+    <body>
+         <div id="templatemo_header_wrapper">
+            <div id="site_title">
+                <h1><a href="index.html">MOVIES</a></h1>
+            </div>
+            <hr class="hh"/>
+            <div id="templatemo_menu" class="ddsmoothmenu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_us.html"class="selected">About</a></li>
+                    <li><a href="comments.html">Comments</a></li>
+                    <li><a href="table.html">Table</a></li>
+                </ul>
+            </div> 
+            <div class="cleaner"></div>
+         </div>	
+         <!--the parigraph about us -->
+         <div class="about">
+            <br>
+            <h1>About Us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit veritatis voluptas, ad maxime explicabo repellendus, tempore, sequi ratione pariatur vel laborum quo. Porro officia veritatis quam. Quis repellendus ab harum.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, maiores! Ad ut pariatur nihil mollitia, minima praesentium accusantium? Necessitatibus sunt deserunt blanditiis soluta adipisci tempora eveniet voluptas alias suscipit eius!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi inventore labore porro illum nisi voluptatem recusandae sunt architecto deserunt, suscipit nobis placeat, cupiditate accusantium ratione ad asperiores odio eligendi optio?
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, aut ab? Odit cumque exercitationem dolorum aut repudiandae eaque natus ipsum quasi, tenetur minima dolorem non quod, cupiditate molestias quae in?
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam deserunt dolorem commodi earum, distinctio necessitatibus voluptate enim minus nulla expedita repudiandae numquam sequi ducimus at vero ex ipsam ullam cupiditate?Lorem ipsum, dolor sit amet consectetur adipisicing elit. At facere id perferendis laboriosam accusantium. Soluta ad ipsum aut, voluptatibus velit, alias temporibus animi modi nemo cumque officia quis illum veniam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod recusandae voluptatum tempora neque nostrum sunt quis repellat aut! Accusamus temporibus ullam similique ab et ex libero laboriosam labore. Ducimus, veritatis!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur recusandae veniam voluptate magni eum, eveniet cumque unde explicabo minus sed quaerat ab distinctio rerum modi, voluptatibus asperiores soluta mollitia nihil.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore molestias illo ut? Incidunt cumque mollitia voluptatem rerum culpa, dolor magnam vero, hic, officia vel quia neque aut aspernatur consectetur cum.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam alias voluptates impedit corporis excepturi repellat nisi ea! Veniam, fugit, dignissimos saepe exercitationem quae laboriosam, reprehenderit deleniti sed qui nam provident!<br/>
+                <div class="container">
+                    <button type="submit" class="btn" onclick="openPopup()">login</button><br><br><br>
+                    <div class="popup" id="popup">
+                        <img src="css/1.jpg" width="50px" height="50px" >
+                        <form >
+                            <label>FIRST NAME</label><br>
+                            <input type="text"  name="fname"><br>
+                
+                            <label>LAST NAME</label><br>
+                            <input type="text" name="lname"><br>
+                
+                            <label>EMAIL</label><br>
+                            <input type="email" name="email"><br>
+                            
+                            <label >AGE</label><br>
+                            <input type="date" name="age"><br>
+                            <br>
+                            <label >massage</label><br>
+                            <textarea value="massage"></textarea>
+                            <br>
+                            <input type="button" onclick="alert('your information save👍')" value="sbumit" id="button"><br/><br/>
+                            <input type="reset" onclick="alert('write your information again🙂')" value="reset" id="button">
+                        </form>
+                        <button type="button" onclick="closePopup()">back</button>
+                    </div>
+                </div>
+         </div>
+            <br>
+            <hr class="hh"/>
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p>Copyright &copy; 2020 abdulaziz</p>
+                        </div>
+                        <div class="web">
+                            <p ><a href="table.html" >
+                                www.abdulaziz.con</a></p>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="social-icons">
+                                <li><a href="https://facebook.com" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com"  target="_blank" class="twitter"> <i class="fa fa-twitter"> </i></a></li>
+                            <li><a href="https://linkedin.com" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://rss.com"      target="_blank" class="rss">     <i class="fa fa-rss">     </i></a></li>
+                            <li><a href="https://dribbble.com" target="_blank" class="dribbble"><i class="fa fa-dribbble"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <script>
+                /*for show and hide the element of the login*/
+                let popup = document.getElementById("popup");
+                function openPopup(){
+                  popup.classList.add("open-popup");
+                  about.classList.add("open-popup");
+                }
+                function closePopup(){
+                  popup.classList.remove("open-popup");
+                }
+            </script>
+    </body>
+</html>

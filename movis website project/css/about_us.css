@@ -1,0 +1,193 @@
+/*for the styling of body*/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, Geneva,sans-serif,Arial;
+	line-height: 1.4em;
+	background-color:rgba(0, 0, 0, 0.2);
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(1.jpg);
+	background-size: cover;
+}
+/*for the header*/
+#site_title h1 { 
+	letter-spacing: 50px;
+	text-align: center;
+	margin: 20px; 
+	padding: 10px; 
+	box-shadow: 2px 2px 5px 5px rgba(240, 9, 9, 0.473);
+}
+
+#site_title h1 a { 
+	font-size: 50px; 
+	color: #e10404;
+	text-decoration: none;
+	font-family: Serif;
+	
+}
+/*for the paregraph*/
+.about{
+	margin-top: 5%;
+	margin-left: 25%;
+	text-align: center;
+	background-color: #656666a7;
+	width: 50%;
+	height: 50%;
+	border-radius: 10%;
+}
+
+.about h1{
+	margin: 5%;
+	font-size: 50px;
+	color: red;
+}
+
+/*for the hiding login*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+.btn{
+	padding: 5px;
+	background: #e60a0a9e;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+	font-size: 22px;
+	border-radius: 10px;
+}
+
+.popup{
+	width: 400px;
+	background: #c2c2c2e7;
+	border-radius: 6px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%,-50%) scale(0.1);
+	text-align: center;
+	padding: 0 30px 30px;
+	color: #333;
+	visibility: hidden;
+	transition: transform 0.4s,top0.4s;
+}
+
+.open-popup{
+	visibility: visible;
+	top: 75%;
+	transform: translate(-50%,-50%) scale(1);
+}
+
+.popup img {
+	margin-top: -50px;
+	border-radius: 50%;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.popup h2 {
+	font-size: 38px;
+	font-weight: 500;
+	margin: 30px 0 10px ;
+}
+
+.popup button{
+	width: 100%;
+	margin-top: 50px ;
+	padding: 10px 0;
+	color:  #ff0000bb ;
+	border: 0;
+	font-size: 18px;
+	border-radius: 4px;
+	cursor: pointer;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.popup input{
+	width: 90%;
+}
+.popup textarea{
+	width: 90%;
+	height: 100px;
+	border-radius: 5px;
+}
+#button{
+	padding: 0;
+	background: #ff1212cc;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+	font-size: 22px;
+	border-radius: 10px;
+}
+/*the end of the hiding login*/
+/*for the footer*/
+footer {
+	background-color: #363e505d;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+footer p {
+	line-height: 25px;
+	color: #fff;
+	margin-top: 3px;
+}
+
+footer p:hover {
+	color: #e61313;
+}
+
+.container .row .web p a{
+	letter-spacing: 15px;
+    color: white; 
+	text-decoration:none;
+}
+
+.container .row .web p a:hover{
+	color: red;
+}
+
+footer ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+footer ul li {
+	display: inline-block;
+	margin: 0px 5px;
+}
+
+footer ul li i {
+	width: 36px;
+	height: 36px;
+	display: inline-block;
+	text-align: center;
+	line-height: 36px!important;
+	background-color: #ffffffef;
+	border-radius: 50%;
+	color: #363e50;
+	transition: all 0.5s;
+}
+
+footer ul li .facebook i:hover {
+	background-color: rgb(65, 65, 255);	
+}
+
+footer ul li .twitter i:hover {
+	background-color: rgb(2, 134, 216);	
+}
+
+footer ul li .linkedin i:hover {
+	background-color: rgba(0, 0, 196, 0.712);	
+}
+
+footer ul li .rss i:hover {
+	background-color: rgb(255, 43, 43);	
+}
+
+footer ul li .dribbble i:hover {
+	background-color: rgb(33, 33, 34);	
+}
+/*THE END*/

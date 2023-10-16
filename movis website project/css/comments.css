@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    outline: none;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, Geneva,sans-serif,Arial;
+	line-height: 1.4em;
+	background-color:rgba(0, 0, 0, 0.2);
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(1.jpg);
+	background-size: cover;
+}
+
+#site_title h1 { 
+	letter-spacing: 50px;
+	text-align: center;
+	margin: 20px; 
+	padding: 10px; 
+	box-shadow: 2px 2px 5px 5px rgba(240, 9, 9, 0.473);
+}
+
+#site_title h1 a { 
+	font-size: 50px; 
+	color: #e10404;
+	text-decoration: none;
+	font-family: Serif;
+	
+}
+
+.coment {
+    background-color: #52555cb7;
+   
+}
+
+.voting{
+    position: relative; 
+    border-radius: 7px;
+    display: flex;
+    width: 100px;
+    justify-content: center;
+
+}
+
+input{
+    width: 25px;
+    border: none;
+    background: none;
+    color: #ffffff;
+    font-size: 20px;
+    pointer-events: none;
+}
+button
+{
+    color: #ffffffd2;
+    background: none;
+    border: none;
+    font-size: 20px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+button:active{
+    color: #ff0000;
+    transform: scale(1.2);
+}
+.coment p {
+    display: inline;
+    margin-left: 10px;
+}
+
+
+.img {
+    display: inline;
+    border-radius: 40%;
+    width:30px ;
+    height:30px ;
+    padding-block: 0px;
+    margin-left: 5px;
+    margin-right: 0px;
+    margin-block: 0px;
+}
+
+
+footer {
+	background-color: #363e505d;
+	text-align: center;
+}
+
+footer p {
+	line-height: 25px;
+	color: #fff;
+	margin-top: 5px;
+}
+
+footer p:hover {
+	color: #e61313;
+}
+
+.container .row .web p a{
+	letter-spacing: 15px;
+    color: white; 
+	text-decoration:none;
+}
+
+.container .row .web p a:hover{
+	color: red;
+}
+
+footer ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+footer ul li {
+	display: inline-block;
+	margin: 0px 5px;
+}
+
+footer ul li i {
+	width: 36px;
+	height: 36px;
+	display: inline-block;
+	text-align: center;
+	line-height: 36px!important;
+	background-color: #fff;
+	border-radius: 50%;
+	color: #363e50;
+	transition: all 0.5s;
+}
+
+footer ul li .facebook i:hover {
+	background-color: rgb(65, 65, 255);	
+}
+
+footer ul li .twitter i:hover {
+	background-color: rgb(2, 134, 216);	
+}
+
+footer ul li .linkedin i:hover {
+	background-color: rgba(0, 0, 196, 0.712);	
+}
+
+footer ul li .rss i:hover {
+	background-color: rgb(255, 43, 43);	
+}
+
+footer ul li .dribbble i:hover {
+	background-color: rgb(33, 33, 34);	
+}
+/*THE END*/
